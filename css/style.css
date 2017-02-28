@@ -3,4 +3,43 @@
     margin: 0.2em 0;
 }
 
-#mapid { height: 380px; }
+#mapid {
+    height: 400px;
+    width: 75%;
+    display: inline-block;
+}
+
+#panel {
+    width: 20%;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 42px;
+}
+
+#sf {
+    width: 10%;
+    padding: 3px;
+    padding-right: 20px;
+    vertical-align: left;
+    text-align: left;
+    line-height: 5px;
+}
+
+.btn {
+    padding-left: 0px;
+    text-align: right;
+}
+
+.range-slider {
+    width: 50%;
+}
+
+#forward {
+    float: right;
+}
+
+#reverse {
+    float: left;
+}
