@@ -1,39 +1,89 @@
 /* Stylesheet by Xinyi Liu, 2017 */
-.leaflet-popup-content p {
-    margin: 0.2em 0;
+.leaflet-popup-content {
+    margin: 0 0.4em;
 }
 
 #mapid {
-    height: 400px;
-    width: 75%;
+    padding-top: 30px;
+    height: 420px;
+    width: 100%;
     display: inline-block;
+}
+
+#maptitle {
+    padding-top: 0.1px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    height: 45px;
+    width: 99%;
+    color: white;
+    background-color: #738998;
+    opacity: 0.6
+}
+
+.sequence-control-container {
+    width: 300px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    line-height: 30px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.legend-control-container {
+    background-color: rgba(255,255,255,0.8);
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 10px;
+    line-height: 5px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.range-slider {
+    width: 200px;
 }
 
 #panel {
-    width: 20%;
-    padding: 20px;
+    width: 99.5%;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
     display: inline-block;
     vertical-align: top;
-    text-align: center;
-    line-height: 42px;
+    text-align: left;
+    line-height: 20px;
+    background-color: #625cfb;
+    opacity: 0.6;
 }
 
 #sf {
-    width: 10%;
-    padding: 3px;
-    padding-right: 20px;
+    width: 5%;
+    padding-right: 5px;
     vertical-align: left;
     text-align: left;
     line-height: 5px;
 }
 
+#dataSource {
+    padding-right: 0px;
+    padding-left: 55%;
+    text-align: right;
+    line-height: 0px;
+}
+
 .btn {
-    padding-left: 0px;
+    padding-left: 3px;
     text-align: right;
 }
 
-.range-slider {
-    width: 50%;
+.skip {
+    height: 30px;
 }
 
 #forward {
